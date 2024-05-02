@@ -57,12 +57,10 @@
     "elliptic": "=3.0.3",
     "inherits": "=2.0.1",
     "lodash": "^3.10.1",
-    "node-x16rv2": "traysi/x16rv2_hash",
+    "node-x16r": "git+https://github.com/ravendevkit/node-x16r",
+    "node-x16rv2": "git+https://github.com/ravendevkit/x16rv2_hash.git",
     "kawpow-light-verifier": "git+https://github.com/blondfrogs/kawpow-light-verifier.git",
     "xmlhttprequest": "^1.8.0"
-  },
-  "optionalDependencies": {
-    "@ravendevkit/node-x16r": "^1.0.2"
   },
   "devDependencies": {
     "brfs": "^1.2.0",
